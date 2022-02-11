@@ -1,0 +1,124 @@
+{
+  "contractName": "Adoption",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Adoption.sol\":\"Adoption\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Adoption.sol\":{\"keccak256\":\"0x5d306b9d2ac7440f3788ac40141b647111752240248a8755a52a7e36195a1be3\",\"urls\":[\"bzz-raw://952e3397700030dbd9da7099fa077896526da1016d0e1ce129018845ee8969fa\",\"dweb:/ipfs/QmYbwCt19oNk879T86Kk5yRVciJjVkjL7sqYR8TXviqM2U\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158207583016393a3efc29b265062cfc5594e74d6b1a363102f3bd5d51d71aabae40e64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158207583016393a3efc29b265062cfc5594e74d6b1a363102f3bd5d51d71aabae40e64736f6c63430005100032",
+  "sourceMap": "59:22:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;59:22:0;;;;;;;",
+  "deployedSourceMap": "59:22:0:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity >=0.5.0;\n\ncontract Adoption {\n\n}",
+  "sourcePath": "/Users/akshay.shah/SolidityProjects/Truffle/contracts/Adoption.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Adoption.sol",
+    "exportedSymbols": {
+      "Adoption": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Adoption",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "59:22:0"
+      }
+    ],
+    "src": "33:48:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Adoption.sol",
+      "exportedSymbols": {
+        "Adoption": [
+          2
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "33:24:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2
+          ],
+          "name": "Adoption",
+          "nodes": [
+            null
+          ],
+          "scope": 3
+        },
+        "id": 2,
+        "name": "ContractDefinition",
+        "src": "59:22:0"
+      }
+    ],
+    "id": 3,
+    "name": "SourceUnit",
+    "src": "33:48:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x478C6dDfA0E811346320f197F33A64fffFa2D62f",
+      "transactionHash": "0xe7ddb0f7b8284ab1c5c3e37402cbee245774b6a3c2b3b111157ae282d99652ac"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-02-10T21:33:35.648Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
